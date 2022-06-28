@@ -14,7 +14,7 @@ function addItem( item ){
 
 function listItems(){
     for ( items in basket){
-        console.log(items);
+        console.log(basket[items]);
     }
 }
 //We are running a loop that runs for each item in the basket and console logs that item.
@@ -26,4 +26,9 @@ function empty(){
 //This sets the value of basket back to 0.
 
 console.log('Adding an item to the basket and expect true for result. Result =', addItem('grapes'));
+console.log('Adding an item to the basket and expect true for result. Result =', addItem('Oranges'));
+console.log('Adding an item to the basket and expect true for result. Result =', addItem('Bananas'));
 // console.log(basket);
+
+listItems();
+//log each item in the basket.
