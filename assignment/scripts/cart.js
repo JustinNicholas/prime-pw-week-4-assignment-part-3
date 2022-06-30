@@ -28,7 +28,7 @@ function addItem( item ){
 //It will also return 'true' once it is added to the array
 
 function listItems(){
-    for ( items in basket){
+    for ( let items in basket){
         console.log(basket[items]);
     }
 }
